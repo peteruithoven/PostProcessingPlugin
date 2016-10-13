@@ -38,10 +38,10 @@ class PauseAtHeight(Script):
                 "retraction_ammount":
                 {
                     "label": "Retraction",
-                    "description": "How much fillament must be retracted at pause.",
+                    "description": "How much fillament must be retracted at pause, to prevent oozing.",
                     "unit": "mm",
                     "type": "float",
-                    "default_value": 0
+                    "default_value": 20.0
                 }
             }
         }"""
